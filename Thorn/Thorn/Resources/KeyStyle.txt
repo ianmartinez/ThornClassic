@@ -1,0 +1,29 @@
+Radius=3
+
+Active Colors=254,254,254|235,236,237
+Active Positions=0|1
+Active Angle=90
+Active Border Color=111,111,110
+Active Text Color=64,64,64
+Active Highlight Color=230,255,255,255
+
+Hover Colors=254,254,255|246,246,247
+Hover Positions=0|1
+Hover Angle=90
+Hover Border Color=111,111,110
+Hover Text Color=64,64,64
+Hover Highlight Color=230,255,255,255
+
+Pressed Colors=186,188,191|212,214,217|212,214,217
+Pressed Positions=0|0.2|1
+Pressed Angle=90
+Pressed Border Color=111,111,110
+Pressed Text Color=94,95,99
+Pressed Highlight Color=0,255,255,255
+
+Checked Colors=186,188,191|212,214,217|212,214,217
+Checked Positions=0|0.2|1
+Checked Angle=90
+Checked Border Color=60,60,63
+Checked Text Color=94,95,99
+Checked Highlight Color=0,255,255,255

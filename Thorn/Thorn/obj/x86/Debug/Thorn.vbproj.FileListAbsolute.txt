@@ -1,0 +1,111 @@
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\bin\Debug\Thorn.exe.config
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\bin\Debug\Thorn.exe
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\bin\Debug\Thorn.pdb
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\bin\Debug\Thorn.xml
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.vbprojResolveAssemblyReference.cache
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgAbout.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgKeyboard.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgDonate.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.frmMain.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.Resources.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.vbproj.GenerateResource.Cache
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.exe
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.xml
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.pdb
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.FreeResponseWorkspace.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.ImageWorkspace.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.TextWorkspace.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgAdd.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.MultipleChoiceWorkspace.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgGoTo.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.TitleWorkspace.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgPageProperties.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgNew.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\bin\Debug\Thorn.exe.manifest
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\bin\Debug\Thorn.application
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.exe.manifest
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.application
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgVocabulary.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgContact.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.WebBrowserWorkspace.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.ExtendedColorDialog.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgGradient.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.vbproj.ResolveComReference.cache
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\bin\Debug\Interop.WMPLib.dll
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgDisplay.resources
+C:\Users\Ian Martinez\documents\visual studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.MediaWorkspace.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.Player.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\bin\Debug\Tundra.dll
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\bin\Debug\Tundra.pdb
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\bin\Debug\Tundra.xml
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgCustomize.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.frmViewer.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.TitleViewer.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.TextViewer.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.ImageViewer.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.MediaViewer.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.DisplayViewer.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.FreeResponseViewer.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.MultipleChoiceViewer.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.EntryWorkspace.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.RichTextEditor.resources
+C:\Users\Ian Martinez\Documents\Visual Studio 2010\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgReadVocabulary.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.vbprojAssemblyReference.cache
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Interop.WMPLib.dll
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\AxInterop.WMPLib.dll
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.vbproj.ResolveComReference.cache
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgAbout.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgContact.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgDisplay.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgGoTo.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgGradient.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgKeyboard.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgNew.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgPageProperties.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgCustomize.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgAdd.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgReadVocabulary.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.dlgVocabulary.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.ExtendedColorDialog.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.EntryWorkspace.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.frmMain.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.frmViewer.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.Resources.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.Player.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.RichTextEditor.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.DisplayViewer.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.FreeResponseViewer.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.ImageViewer.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.MediaViewer.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.MultipleChoiceViewer.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.TextViewer.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.TitleViewer.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.FreeResponseWorkspace.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.ImageWorkspace.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.MediaWorkspace.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.MultipleChoiceWorkspace.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.TextWorkspace.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.TitleWorkspace.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.WebBrowserWorkspace.resources
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.vbproj.GenerateResource.cache
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.vbproj.CoreCompileInputs.cache
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.exe
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.xml
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.pdb
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Thorn.exe.config
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Thorn.exe.manifest
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Thorn.application
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Thorn.exe
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Thorn.pdb
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Thorn.xml
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Tundra.dll
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Tundra.pdb
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Tundra.xml
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\Interop.WMPLib.dll
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\bin\Debug\AxInterop.WMPLib.dll
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.exe.manifest
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.application
+D:\Win 10\Ian\Documents\Old Desktop\Projects\Thorn\Thorn\obj\x86\Debug\Thorn.vbproj.CopyComplete

@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B971187-96E6-4360-B145-DEF52FD366E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Thorn.My.MyApplication</StartupObject>
+    <RootNamespace>Thorn</RootNamespace>
+    <AssemblyName>Thorn</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Thorn.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Thorn.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Thorn.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DF7853AEE387E9CA616E78C6C52D5D6584EA7893</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Thorn_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.BZip2, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Ionic.BZip2.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackgroundPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgAdd.Designer.vb">
+      <DependentUpon>dlgAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgContact.Designer.vb">
+      <DependentUpon>dlgContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgDisplay.Designer.vb">
+      <DependentUpon>dlgDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgGoTo.Designer.vb">
+      <DependentUpon>dlgGoTo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgGoTo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgGradient.Designer.vb">
+      <DependentUpon>dlgGradient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgGradient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgNew.Designer.vb">
+      <DependentUpon>dlgNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgPageProperties.Designer.vb">
+      <DependentUpon>dlgPageProperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgPageProperties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgReadVocabulary.Designer.vb">
+      <DependentUpon>dlgReadVocabulary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgReadVocabulary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgVocabulary.Designer.vb">
+      <DependentUpon>dlgVocabulary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgVocabulary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoubleBufferedSplit.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DoubleBufferedTabs.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DoubleBufferedTreeView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ExtendedColorDialog.Designer.vb">
+      <DependentUpon>ExtendedColorDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExtendedColorDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntryWorkspace.Designer.vb">
+      <DependentUpon>EntryWorkspace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EntryWorkspace.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FixedSR.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextEditor.Designer.vb">
+      <DependentUpon>RichTextEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextEditor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewer\FreeResponseViewer.Designer.vb">
+      <DependentUpon>FreeResponseViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\FreeResponseViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmViewer.Designer.vb">
+      <DependentUpon>frmViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradientButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="File\KeyboardFile.vb" />
+    <Compile Include="KeyboardUI.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Player.Designer.vb">
+      <DependentUpon>Player.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Player.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="thGradientPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThornCommon.vb" />
+    <Compile Include="Dialogs\dlgAbout.Designer.vb">
+      <DependentUpon>dlgAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgKeyboard.Designer.vb">
+      <DependentUpon>dlgKeyboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgKeyboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgCustomize.Designer.vb">
+      <DependentUpon>dlgCustomize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgCustomize.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="File\ThornFile.vb" />
+    <Compile Include="Viewer\DisplayViewer.Designer.vb">
+      <DependentUpon>DisplayViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\DisplayViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewer\GrowLabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Viewer\ImageViewer.Designer.vb">
+      <DependentUpon>ImageViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\ImageViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewer\MediaViewer.Designer.vb">
+      <DependentUpon>MediaViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\MediaViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewer\MultipleChoiceViewer.Designer.vb">
+      <DependentUpon>MultipleChoiceViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\MultipleChoiceViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewer\TextViewer.Designer.vb">
+      <DependentUpon>TextViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\TextViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="File\VocabularyFile.vb" />
+    <Compile Include="Workspaces\MediaWorkspace.Designer.vb">
+      <DependentUpon>MediaWorkspace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workspaces\MediaWorkspace.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewer\TitleViewer.Designer.vb">
+      <DependentUpon>TitleViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\TitleViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Workspaces\TitleWorkspace.Designer.vb">
+      <DependentUpon>TitleWorkspace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workspaces\TitleWorkspace.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Workspaces\FreeResponseWorkspace.Designer.vb">
+      <DependentUpon>FreeResponseWorkspace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workspaces\FreeResponseWorkspace.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Workspaces\ImageWorkspace.Designer.vb">
+      <DependentUpon>ImageWorkspace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workspaces\ImageWorkspace.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Workspaces\MultipleChoiceWorkspace.Designer.vb">
+      <DependentUpon>MultipleChoiceWorkspace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workspaces\MultipleChoiceWorkspace.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Workspaces\TextWorkspace.Designer.vb">
+      <DependentUpon>TextWorkspace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workspaces\TextWorkspace.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Workspaces\WebBrowserWorkspace.Designer.vb">
+      <DependentUpon>WebBrowserWorkspace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workspaces\WebBrowserWorkspace.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dialogs\dlgAbout.resx">
+      <DependentUpon>dlgAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgContact.resx">
+      <DependentUpon>dlgContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgDisplay.resx">
+      <DependentUpon>dlgDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgGoTo.resx">
+      <DependentUpon>dlgGoTo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgGradient.resx">
+      <DependentUpon>dlgGradient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgKeyboard.resx">
+      <DependentUpon>dlgKeyboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgNew.resx">
+      <DependentUpon>dlgNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgPageProperties.resx">
+      <DependentUpon>dlgPageProperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgCustomize.resx">
+      <DependentUpon>dlgCustomize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgAdd.resx">
+      <DependentUpon>dlgAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgReadVocabulary.resx">
+      <DependentUpon>dlgReadVocabulary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgVocabulary.resx">
+      <DependentUpon>dlgVocabulary.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ExtendedColorDialog.resx">
+      <DependentUpon>ExtendedColorDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntryWorkspace.resx">
+      <DependentUpon>EntryWorkspace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewer.resx">
+      <DependentUpon>frmViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player.resx">
+      <DependentUpon>Player.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichTextEditor.resx">
+      <DependentUpon>RichTextEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewer\DisplayViewer.resx">
+      <DependentUpon>DisplayViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewer\FreeResponseViewer.resx">
+      <DependentUpon>FreeResponseViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewer\ImageViewer.resx">
+      <DependentUpon>ImageViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewer\MediaViewer.resx">
+      <DependentUpon>MediaViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewer\MultipleChoiceViewer.resx">
+      <DependentUpon>MultipleChoiceViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewer\TextViewer.resx">
+      <DependentUpon>TextViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewer\TitleViewer.resx">
+      <DependentUpon>TitleViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workspaces\FreeResponseWorkspace.resx">
+      <DependentUpon>FreeResponseWorkspace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workspaces\ImageWorkspace.resx">
+      <DependentUpon>ImageWorkspace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workspaces\MediaWorkspace.resx">
+      <DependentUpon>MediaWorkspace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workspaces\MultipleChoiceWorkspace.resx">
+      <DependentUpon>MultipleChoiceWorkspace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workspaces\TextWorkspace.resx">
+      <DependentUpon>TextWorkspace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workspaces\TitleWorkspace.resx">
+      <DependentUpon>TitleWorkspace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workspaces\WebBrowserWorkspace.resx">
+      <DependentUpon>WebBrowserWorkspace.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Chameleon\Tundra\Tundra.vbproj">
+      <Project>{801224DE-BF6A-4196-B80F-8F881DD17FB8}</Project>
+      <Name>Tundra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeyStyle.txt" />
+    <None Include="Resources\Thorn.ico" />
+    <None Include="Resources\Transparent2.png" />
+    <Content Include="Thorn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Thorn.exe" version="0.9.9.0" publicKeyToken="45b68ce7f2259957" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Thorn.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Thorn" version="0.9.9.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Thorn.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1NGKzYhPppRnlstp0NmSs/dXu2g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="331264">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>OYum+Pw7NrgNKuk73jRiTQBX+bM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ionic.BZip2.dll" size="57344">
+      <assemblyIdentity name="Ionic.BZip2" version="1.9.1.8" publicKeyToken="EDBE51AD942A3F5C" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>FWDrNsQItBdNih7lhsbzf2M07x0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ionic.Zip.dll" size="462336">
+      <assemblyIdentity name="Ionic.Zip" version="1.9.1.8" publicKeyToken="EDBE51AD942A3F5C" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ihFAzrw59plO736N5GJ/t7cqLdk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorn.exe" size="1217536">
+      <assemblyIdentity name="Thorn" version="0.9.9.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZoDXjVuUnhV9w8ahojdbcER3TTA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tundra.dll" size="82944">
+      <assemblyIdentity name="Tundra" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>MWYPCbNrYj2Mh2G7JpXQNDgWP1c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\ThornEXE.txt" size="8005">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>T5DDGEK0G+zk5vii+/iRNb5TVGU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Thorn.exe.config" size="2180">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>y/gdY75EemCTLU/lpaLS2rA6EVM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Thorn.ico" size="145510">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qHxxz9X2Bj4uQHuqq34xMAASFIw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=IanMartinez-PC\Ian Martinez" issuerKeyHash="6a0be40bd352d5f8719081a5d821e2b675b2f267" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>y4pt0WjqITCLyNSMFGW9AlaxPOk=</DigestValue></Reference></SignedInfo><SignatureValue>D6lLgNStaVRtbpAnZx0sMOBF5ZtiE5t2bnNtyTnHpA2FBrnxwTm50TgiKuBLr8/5D4boNNtSH7oqFrhuvgpr33xypQhCsMTu3x382+mRaX+AP48yyuvf+dYpYOPnKJqckxFJJpxXIukBpdkJOBIt6qWJt1/cGV5imP/chUW449c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vHaoTQD4hWxlRXHayavCfoFPPM8ucolKE01HKIcXZvY6PmbJTNCkIr+AICQlLBi8TPQufyfbymZb/VW7oN/WAyT6Nu1CldPawx0+r+n0xg12YKEAtPaLDDW/sy8e9r/EoHTgA7QrSydwkZapLelDku2rHOLSWzwb+XTgELC8G/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e93cb15602bd65148cd4c88b3021ea68d16d8acb" Description="" Url=""><as:assemblyIdentity name="Thorn.exe" version="0.9.9.0" publicKeyToken="45b68ce7f2259957" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=IanMartinez-PC\Ian Martinez</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>u2FClWzAziYr3gesgA1+UM8wyQ0=</DigestValue></Reference></SignedInfo><SignatureValue>Lmg6HFkI8ePQ+hQe2kYeA46nTqgbDnzYjGH0e0Y3S6AqiMtlyx1I7nq+45OKha7OLv0neeuJuJZ/DM+YXwCz6nPPeMnjQVzUzn5kJsa23FFa6vhcw2+S10doueK1L/kmy3OOptXNTuWC2guNm/V7M02DlemUxHeTQbWfvRzAjbw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vHaoTQD4hWxlRXHayavCfoFPPM8ucolKE01HKIcXZvY6PmbJTNCkIr+AICQlLBi8TPQufyfbymZb/VW7oN/WAyT6Nu1CldPawx0+r+n0xg12YKEAtPaLDDW/sy8e9r/EoHTgA7QrSydwkZapLelDku2rHOLSWzwb+XTgELC8G/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQECU56HM0GKRP7xDspnPzoDANBgkqhkiG9w0BAQUFADBBMT8wPQYDVQQDHjYASQBhAG4ATQBhAHIAdABpAG4AZQB6AC0AUABDAFwASQBhAG4AIABNAGEAcgB0AGkAbgBlAHowHhcNMTMxMTI2MDcwNTAzWhcNMTQxMTI2MTMwNTAzWjBBMT8wPQYDVQQDHjYASQBhAG4ATQBhAHIAdABpAG4AZQB6AC0AUABDAFwASQBhAG4AIABNAGEAcgB0AGkAbgBlAHowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALx2qE0A+IVsZUVx2smrwn6BTzzPLnKJShNNRyiHF2b2Oj5myUzQpCK/gCAkJSwYvEz0Ln8n28pmW/1Vu6Df1gMk+jbtQpXT2sMdPq/p9MYNdmChALT2iww1v7MvHva/xKB04AO0K0sncJGWqS3pQ5Ltqxzi0ls8G/l04BCwvBv9AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAo/xEt0mcDMqeANH4cSVK0oOL+pX1hPCdxNgjEPheTmD4ZKNdHak2u7S98kt7zj7bu91Uq3lGF5bcaL5kgL+y8sTbUYAWY3+jeLjh+Fq3MH4WV5hXAZVX//zwvJF9COBQBGMYn+MV6kiz6/aTRaLOHq0T4BArIDO4ICQ7kM7/4qE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
